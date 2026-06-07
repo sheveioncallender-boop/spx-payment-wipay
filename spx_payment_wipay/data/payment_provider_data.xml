@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="payment_provider_wipay" model="payment.provider">
+        <field name="name">WiPay</field>
+        <field name="code">wipay</field>
+        <field name="state">disabled</field>
+        <field name="is_published">False</field>
+        <field name="company_id" ref="base.main_company"/>
+        <field name="redirect_form_view_id" ref="spx_payment_wipay.redirect_form_wipay"/>
+    </record>
+</odoo>
