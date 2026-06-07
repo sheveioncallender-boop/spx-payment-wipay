@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <template id="redirect_form_wipay" name="WiPay Redirect Form">
-        <form t-att-action="api_url" method="post">
-            <input type="hidden" name="reference" t-att-value="reference"/>
-            <button type="submit" class="btn btn-primary d-none">Pay with WiPay</button>
-        </form>
-    </template>
-</odoo>
